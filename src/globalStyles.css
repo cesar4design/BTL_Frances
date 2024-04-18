@@ -1,0 +1,494 @@
+body {
+  background: rgb(7, 6, 6);
+  background-size: 50%;
+  background-repeat: repeat;
+  color: white;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+.particles {
+  z-index: -1;
+}
+
+
+@font-face {
+  font-family: FontBlond;
+  src: url(../public/TitilliumWeb-Regular.ttf);
+}
+
+@font-face {
+  font-family: FontBold;
+  src: url(../public/TitilliumWeb-Bold.ttf);
+}
+
+h1 {
+  font-size: 46px;
+  font-family: FontBold;
+  color: white;
+}
+
+h2 {
+  font-size: 34px;
+  font-family: FontBold;
+  color: #F8BC00;
+}
+
+h3 {
+  font-size: 24px;
+  font-family: FontBold;
+  color: white;
+}
+
+p {
+  font-size: 16px;
+  font-family: FontBlond;
+  color: white;
+}
+
+.negrita {
+  font-family: FontBold;
+
+}
+
+a {
+  font-size: 16px;
+  font-family: FontBlond;
+  color: white;
+  text-decoration: none;
+}
+
+.black {
+  color: #000000;
+}
+
+.centerText {
+  text-align: center !important;
+}
+
+.transparent {
+  color: transparent;
+}
+
+.yellowLink {
+  font-size: 16px;
+  font-family: FontBlond;
+  color: #F9C53F;
+  text-decoration: none;
+}
+
+.blodText {
+  font-size: 16px;
+  font-family: FontBlond;
+  font-weight: 700;
+  color: white;
+}
+
+button {
+  font-size: 16px;
+  font-family: FontBold;
+  color: white;
+}
+
+.yellow {
+  color: #F9C53F;
+}
+
+hr {
+  background: linear-gradient(270deg, #fff -.66%, hsla(0, 0%, 100%, 0) -.65%, #fff 47.21%, hsla(0, 0%, 100%, 0) 99.8%);
+  height: 1px;
+  border: none;
+}
+
+label {
+  font-size: 16px;
+  font-family: FontBlond;
+  color: white;
+}
+
+/* Navbar */
+
+.NavbarBg {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 10px;
+  gap: 30px;
+  margin-bottom: -30px;
+  z-index: 2;
+}
+
+.NavbarMain {
+  border-radius: 12px;
+  padding: 12px 20px;
+  width: 100%;
+  max-width: 1800px;
+  margin-left: -30px;
+}
+
+.NavbarLogo {
+  width: 150px;
+}
+
+.NavbLink {
+  margin: 0px 6px;
+  margin-top: 8px;
+  font-size: 16px;
+  font-family: FontBold;
+  color: #F8BC00;
+  text-decoration: none;
+  border-right: 1px solid #F8BC00;
+  padding-right: 10px;
+  transition: 0.2s;
+  padding-top: 4px;
+}
+
+.NavbLinkBg {
+  margin: 0px 8px;
+  margin-top: 8px;
+  font-size: 16px;
+  font-family: FontBold;
+  color: #000000;
+  text-decoration: none;
+  border-right: 1px solid #F8BC00;
+  padding-top: 4px;
+  padding-right: 10px;
+  padding-left: 10px;
+  transition: 0.2s;
+  background-color: #F8BC00;
+  border-radius: 6px;
+}
+
+
+
+.NavbLink2 {
+  margin: 0px 6px;
+  font-size: 16px;
+  font-family: FontBold;
+  color: #000000;
+  text-decoration: none;
+  border-right: 1px solid #000000;
+  padding-right: 10px;
+  transition: 0.2s;
+}
+
+.NavbLink23 {
+  margin: 0px 6px;
+  font-size: 16px;
+  font-family: FontBold;
+  color: #000000;
+  text-decoration: none;
+  border-left: 1px solid #000000;
+  padding-left: 10px;
+  transition: 0.2s;
+}
+
+.NavbLink22 {
+  margin: 0px 6px;
+  font-size: 16px;
+  font-family: FontBlond;
+  font-weight: 300;
+  color: #ffffff;
+  background: rgb(17, 17, 17);
+  text-decoration: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  transition: 0.2s;
+  border-radius: 4px;
+}
+
+.FlexNav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.dropdown-menu {
+  background-color: #d8ca510c;
+  --bs-dropdown-min-width: 50px;
+}
+
+
+
+
+
+/* Cambia el color de las rayas del toggle a amarillo */
+.toogleNavb .navbar-toggler-icon {
+  width: 36px;
+  background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgb(255, 238, 0)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+
+
+
+
+.dropdown-item {
+  background: none !important;
+}
+
+.profileImg {
+  width: 32px;
+  margin-top: 4px;
+  margin-right: 15px;
+  margin-left: 5px;
+}
+
+.socialImg {
+  width: 24px;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-left: 5px;
+}
+
+.WalletConnect {
+  background: transparent;
+  border: 1px solid #F8BC00;
+  color: #F8BC00;
+  padding: 5px 20px;
+  border-radius: 6px;
+  margin-top: 2px;
+  margin-right: 10px;
+}
+
+
+.flexRows {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.firstRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.secondRow {
+  background-color: #F8BC00 !important;
+  border-radius: 12px;
+  padding: 10px;
+  margin-top: 15px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* Background */
+@media (max-width: 768px) {
+
+  .NavbarMain {
+    width: 100%;
+    max-width: 1800px;
+    margin-left: 0px;
+  }
+
+  .NavbarBg {
+    display: flex;
+    align-items: center;
+    margin-bottom: -60px;
+  }
+
+  .toogleNavb {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 25px;
+  }
+
+  .NavbarLogo {
+    width: 90px;
+    position: relative;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+
+  .NavbLink {
+    margin: 0px 6px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-family: FontBold;
+    text-decoration: none;
+    border-right: 0px solid black;
+    padding-right: 10px;
+  }
+
+
+  .flexRows {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background: #0e0d0d;
+    border-radius: 12px;
+    padding-top: 10px;
+  }
+
+  .flexRows div {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .secondRow {
+    background-color: #F8BC00 !important;
+    border-radius: 12px;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 40px
+  }
+
+
+  .NavbLink2 {
+    margin: 0px 6px;
+    font-size: 14px;
+    font-family: FontBold;
+    color: #000000;
+    text-decoration: none;
+    border-right: none;
+    padding-right: 0px;
+    transition: 0.2s;
+  }
+
+  .WalletConnect {
+    background: transparent;
+    border: 1px solid #F8BC00;
+    color: #F8BC00;
+    padding: 5px 20px;
+    border-radius: 6px;
+    margin-top: 6px;
+    margin-right: 10px;
+  }
+
+  .NavbLink23 {
+    margin: 0px 6px;
+    font-size: 16px;
+    font-family: FontBold;
+    color: #000000;
+    text-decoration: none;
+    border-left: none;
+    padding-left: 0px;
+    transition: 0.2s;
+  }
+
+  .NavbLink22 {
+    margin: 0px 6px;
+    font-size: 16px;
+    font-family: FontBlond;
+    font-weight: 300;
+    color: #ffffff;
+    background: rgb(17, 17, 17);
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: 0.2s;
+    border-radius: 4px;
+    margin-top: 5px;
+  }
+
+
+
+
+}
+
+
+/* Slider */
+
+.slider {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 40px;
+  align-items: center;
+
+}
+
+.slider .slide-track {
+  display: flex;
+  align-items: center;
+  animation: scroll 4s linear infinite;
+  -webkit-animation: scroll 70s linear infinite;
+  width: calc(300px * 16);
+}
+
+.slider .slide {
+  width: 100%;
+  margin: 0px 50px;
+}
+
+.slider .slide img {
+  height: 50px;
+  border-radius: 0px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-300px * 8));
+  }
+}
+
+
+
+table {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 12px;
+  color: #fff;
+  overflow: hidden;
+  border-collapse: separate !important;
+  text-align: center;
+  background-color: #f9c43f00;
+}
+
+
+.X {
+  text-align: center;
+  width: 50%;
+}
+
+table td {
+  background: rgb(24, 24, 24);
+  border-collapse: separate !important;
+  border-radius: 12px;
+  padding: 5px 10px;
+  border: 1px solid #F8BC00;
+}
+
+table th {
+  background: rgb(24, 24, 24);
+  border-collapse: separate !important;
+  border-radius: 12px;
+  border: 1px solid #F8BC00;
+  padding: 5px 10px;
+
+
+}
+
+.addressTable {
+  min-width: 100px;
+}
+
+
+
+.footerSection {
+  background-color: #201f1f62;
+  opacity: 0.8;
+  display: flex;
+  width: 100%;
+  padding: 0px 60px;
+  padding-top: 20px;
+  justify-content: space-between;
+}
+
+.footerSection div {
+  display: flex;
+  gap: 20px;
+
+}

@@ -1,0 +1,79 @@
+.ProfileSection {
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 6px;
+    border: 1px solid #F8BC00;
+    margin-top: 80px;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.ProfileSection p {
+  text-align: left;
+}
+
+
+.n1 {
+    margin-left: 10px;
+}
+
+.n2 {
+    margin-left: 25px;
+}
+
+.n3 {
+    margin-left: 35px;
+}
+
+.ProfileSection img {
+    width: 250px;
+    border: 1px solid #F8BC00;
+    border-radius: 600px;
+    margin-bottom: 16px;
+    margin-top: 14px;
+}
+
+
+
+
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.9);
+    z-index: 9999;
+    background: rgba(29, 29, 29, 0.95);
+    backdrop-filter: blur(6px);
+    padding: 30px 20px;
+    border-radius: 12px;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+    min-width: 350px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.popup img {
+    max-width: 150px;
+    
+}
+
+.closeButton {
+    background-color: rgba(255, 255, 255, 0.062);
+    padding: 6px 12px;
+    color: white;
+    font-family: FontBlond;
+    border: none;
+    border-radius: 6px;
+    margin-top: 15px;
+}

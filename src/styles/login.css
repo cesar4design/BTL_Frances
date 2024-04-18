@@ -1,0 +1,113 @@
+.LoginMainSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    overflow: scroll;
+}
+
+.LoginContainer {
+    background: rgba(29, 29, 29, 0.589);
+    backdrop-filter: blur(6px);
+    padding: 30px 20px;
+    border-radius: 12px;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+    min-width: 350px;
+    border: 1px solid #F8BC00;
+}
+
+.UserAvatarForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.AvatarPreview {
+    margin-top: -20px;
+}
+
+.UserInfoForm {
+    margin-top: -10px;
+}
+
+.UserInfoForm div {
+    margin: 10px 0px;
+}
+
+.UserForm {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    font-size: 16px;
+    font-family: FontBlond;
+    border-radius: 12px;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.AvatarInput {
+    background-color: rgb(60, 61, 61);
+    margin-top: 10px;
+    font-size: 14px;
+    padding: 0px;
+}
+
+.InputButton {
+    margin: 10px 0px;
+    border-radius: 12px;
+    font-size: 14px;
+    padding: 5px;
+    font-family: FontBlond;
+}
+
+.LoginMain {
+    position: fixed;
+    background: rgb(0, 0, 0, 0.82);
+    text-align: center;
+    z-index: 999;
+    overflow: hidden; /* Oculta el desbordamiento del contenido */
+    position: fixed; /* Fija el contenedor en la ventana */
+    top: 50%; /* Lo posiciona en el centro vertical */
+    left: 50%; /* Lo posiciona en el centro horizontal */
+    transform: translate(-50%, -50%);
+    padding: 1000px;
+}
+
+.LoginMainContainer {
+    margin: 20px;
+    padding-bottom: 10px;
+    overflow: auto;
+    max-height: 90vh;
+}
+
+.LoginMainContainer::-webkit-scrollbar {
+    width: 10px; /* Ancho del scrollbar */
+}
+
+.LoginMainContainer::-webkit-scrollbar-thumb {
+    background-color: rgb(66, 65, 65); /* Color del pulgar del scrollbar */
+    border-radius: 5px; /* Radio de borde del pulgar */
+}
+
+.LoginMainContainer::-webkit-scrollbar-track {
+    background-color: #d1caca; /* Color del fondo del scrollbar */
+    border-radius: 5px; /* Radio de borde del pulgar */
+}
+
+.centerForm {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.margin10top {
+    padding-top: 10px;
+}
+
+.fullinput {
+    min-width: 340px;
+}

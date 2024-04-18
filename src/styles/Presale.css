@@ -1,0 +1,199 @@
+.PrizesContainer {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.PrizesContainer img {
+    width: 150px;
+}
+
+.FlexCenter {
+    width: 100%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.prizeColumn {
+    width: 40%;
+}
+
+.progressBarColumn {
+    width: 60%;
+}
+
+.progressBarColumn p {
+ font-size: 20px;
+}
+
+
+
+
+
+.lowBottom {
+    margin-bottom: -20px;
+    margin-top: 20px;
+}
+
+.YellowBox {
+    position: relative;
+    background: rgba(0, 0, 0, 0.274);
+    backdrop-filter: blur(4px);
+    border: 2px solid #F8BC00;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 40px;
+    border-radius: 12px;
+    z-index: 9999;
+    max-width: 850px;
+}
+
+.TikcetImg {
+    max-width: 210px;
+    border-radius: 12px;
+    margin-top: -25px;
+    position: relative;
+    z-index: -99;
+    margin-bottom: -10px;
+}
+
+
+.flexSpace {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+    margin: 0 auto;
+}
+
+
+.CountMain {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    justify-content: center;
+    /* Centra los elementos dentro de CountMain horizontalmente */
+}
+
+.CountSub {
+    margin: 0px;
+    min-width: 100px;
+    text-align: center;
+    font-size: 56px;
+    font-family: FontBold;
+    color: #F8BC00;
+}
+
+.timeSpace {
+    font-size: 56px;
+    font-family: FontBold;
+    color: #F8BC00;
+    text-align: center;
+    min-width: 40px;
+}
+
+.timeText {
+    font-size: 14px;
+    font-family: FontBlond;
+}
+
+
+.buyInput {
+    background-color: rgba(255, 255, 255, 0.089);
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-family: FontBlond;
+    color: white;
+    padding: 5px 10px 0px 10px;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+.getAmount {
+    margin-top: 18px;
+}
+
+.PassImg {
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+
+.PriceContainer {
+    display: flex;
+    width: 80%;   
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    gap: 20px;
+
+}
+
+
+.nextPrice {
+    border-radius: 12px;
+    border: 1px solid #f9c43f77;
+    padding: 18px 10px 0px 10px;
+    margin: 0 5px;
+}
+
+.flexCenterTicket {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.flexCenterTicket p {
+    background-color: rgba(255, 255, 255, 0.089);
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-family: FontBlond;
+    color: white;
+    padding: 5px 20px 0px 20px;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .CountMain {
+        display: flex;
+        width: 100%;
+        margin-top: 20px;
+        justify-content: center;
+        /* Centra los elementos dentro de CountMain horizontalmente */
+    }
+
+    .CountSub {
+        margin: 0px;
+        min-width: 20px;
+        text-align: center;
+        font-size: 40px;
+        font-family: FontBold;
+        color: #F8BC00;
+    }
+
+    .timeSpace {
+        font-size: 40px;
+        font-family: FontBold;
+        color: #F8BC00;
+        text-align: center;
+        min-width: 40px;
+    }
+
+    .timeText {
+        font-size: 14px;
+        font-family: FontBlond;
+    }
+}
